@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans&display=swap');
 
 body {
-    background-color: #bacbdb;
+    background-color: #F3F5FC;
+	font-size: 15px;
+;
 }
 
 h1 {
@@ -11,10 +13,10 @@ h1 {
     margin-right: auto;
     text-align: center;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	letter-spacing: 2px;
 	word-spacing: 2px;
-	color: #000000;
+	color: #0A3871;
 	font-weight: 700;
 	text-decoration: none;
 	font-style: normal;
@@ -71,15 +73,23 @@ label {
 #boton-desencriptar,
 #boton-copiar {
     position: flex;
-    width: 181px;
-    height: 37px;
-    background: #21235b;
+    width: 180px;
+    height: 35px;
+    background: #0A3871;
     border-radius: 10px;
 	font-family: 'Open Sans', sans-serif;
 }
 
+#boton-encriptar:hover,
+#boton-desencriptar:hover,
+#boton-copiar:hover {
+    background: #EFF1FA;
+	color: #0A3871;
+}
 
-/* CSS para movil */
+
+
+/* CSS para moviles */
 
 @media screen and (max-width: 480px) {
     .text-box1, .text-box2{
@@ -95,7 +105,7 @@ label {
     }
 }
 
-/* Tablet */
+/* CSS para Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .text-box1, .text-box2{
